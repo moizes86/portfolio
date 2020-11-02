@@ -7,6 +7,7 @@ import TMDb_Gif from '../assets/preview-gifs/tmdb-movies-search.gif';
 import TMDb_Thumbnail from '../assets/preview-thumbnails/tmdb.PNG';
 import GlobalTrekking_Thumbnail from '../assets/preview-thumbnails/global-trekking.jpg';
 import GlobalTrekking_Gif from '../assets/preview-gifs/global-trekking.gif';
+import OnlineStore_Thumbnail from '../assets/preview-thumbnails/online-store.thumbnail.JPG'
 
 const contactsArr = [
   {
@@ -22,7 +23,7 @@ const contactsArr = [
     text: 'Moshe Mantsur',
   },
   {
-    href: 'https://www.facebook.com/moshe.mantsur/',
+    href: 'https://www.facebook.com/moshe.mantsur.5/',
     icon: 'fa fa-facebook-square',
     type: 'Facebook',
     text: 'Moshe Mantsur',
@@ -36,6 +37,14 @@ const contactsArr = [
 ];
 
 const projectsArr = [
+  {
+    title: 'Online Store',
+    stack: 'React, Redux, Sass, Firebase, Stripe',
+    summary: 'Online Store is a store. And it\'s online. This is Where you can pretend to buy stuff and fake paying for it with real stripe payments.',
+    gif: null,
+    thumbnail: OnlineStore_Thumbnail,
+    linkURL: 'https://online-store-mm.netlify.app/',
+  },
   {
     title: 'TMDb-movie-search',
     stack: 'React, Redux, Styled-Components',
