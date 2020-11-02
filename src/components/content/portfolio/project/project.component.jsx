@@ -1,6 +1,5 @@
 import React from "react";
 
-import LinkInternal from "../../../link-internal/link-internal.component";
 import LinkExternal from "../../../link-external/link-external.component";
 
 // Used styled components for passing props

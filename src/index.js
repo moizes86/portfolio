@@ -4,7 +4,7 @@ import "./index.css";
 // import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
-import { BrowserRouter, Route, Redirect } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 import { Provider } from "react-redux";
 import homepageStore from "./redux/store";
