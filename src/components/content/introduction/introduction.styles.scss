@@ -5,7 +5,8 @@
   justify-content: center;
   padding: 40px 100px;
   color: white;
-  height: 101vh;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.747);
 
   .bottom {
     margin-top: 100px;
@@ -13,16 +14,15 @@
     flex-wrap: wrap;
     justify-content: space-between;
     animation: fadeIn 1.5s 0.5s forwards;
-    opacity:0;
+    opacity: 0;
 
     @keyframes fadeIn {
-      0%{
-        opacity:0
+      0% {
+        opacity: 0;
       }
-      100%{
+      100% {
         opacity: 1;
       }
-      
     }
   }
   .bottom li {
@@ -46,13 +46,17 @@
   }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
   .homepage > .content .introduction {
-    padding: 10px 40px;
+    padding: 0 20px;
+    text-align: center;
+    .center {
+      padding-top: 50px;
+    }
 
     .bottom {
       padding: 0 10px;
-      li{
+      li {
         margin: 10px 10px;
       }
     }

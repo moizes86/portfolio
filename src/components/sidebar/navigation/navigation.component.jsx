@@ -1,36 +1,30 @@
-import React from 'react';
-import { withRouter } from 'react-router-dom';
-import { connect } from 'react-redux';
-import { onToggleNavbarDropdown } from '../../../redux/homepage.actions';
+import React from "react";
+import { withRouter } from "react-router-dom";
+import { connect } from "react-redux";
+import { onToggleNavbarDropdown } from "../../../redux/homepage.actions";
 
-import LinkInternal from '../../link-internal/link-internal.component';
+import LinkInternal from "../../link-internal/link-internal.component";
 // import ButtonHome from '../../../../components/button-home/button-home.component';
 
-import './navigation.styles.scss';
+import "./navigation.styles.scss";
 
 const Navigation = ({
   match,
   location,
+  history,
   homepageSections,
   navbarShown,
   toggleNavbarDropdown,
 }) => {
   return (
-    <div className={`navigation ${navbarShown ? 'show' : ''}`}>
+    <div className={`navigation ${navbarShown ? "show" : ""}`}>
       <ul onClick={toggleNavbarDropdown}>
         <li
           className={`link-internal ${
-            match.path === location.pathname ? 'active' : ''
+            match.path === location.pathname ? "active" : ""
           }`}
-        >
-          {/* <ButtonHome
-            buttonClassName={`button-home-homepage ${
-              match.path === location.pathname
-                ? 'button-home-homepage-active'
-                : ''
-            }`}
-          /> */}
-        </li>
+        ></li>
+        <li id="sidebar-link-home" onClick={()=>history.push('/')}>HOME</li>
         {homepageSections.map((section, idx) => (
           <LinkInternal
             key={idx}

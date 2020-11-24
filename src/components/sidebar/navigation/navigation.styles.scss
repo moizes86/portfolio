@@ -9,6 +9,14 @@
       padding: 3px 30px;
 
     }
+    #sidebar-link-home{
+      display: none;
+
+      @media screen and (max-width: 1000px){
+        display: block;
+        cursor: pointer;
+      }
+    }
 
      .active:nth-child(1):after{
       display: none;

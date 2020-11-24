@@ -11,7 +11,7 @@ import Loader from 'react-loader-spinner';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 
 // STYLES
-import './App.scss';
+// import './App.scss';
 import './App.styles.scss';
 
 const AppHomepage = () => {

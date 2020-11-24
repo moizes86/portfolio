@@ -39,11 +39,11 @@ const contactsArr = [
 const projectsArr = [
   {
     title: 'Online Store',
-    stack: 'React, Redux, Sass, Firebase, Stripe',
-    summary: 'Online Store is a store. And it\'s online. This is Where you can pretend to buy stuff and fake paying for it with real stripe payments.',
+    stack: 'React, Redux, Sass, Firebase, Stripe, ExpressJS',
+    summary: 'Online Store is a store. And it\'s online. It was made for practicing both redux and context API, plus learning how to use firebase registration and authentication along with express server to enable stripe payments.',
     gif: null,
     thumbnail: OnlineStore_Thumbnail,
-    linkURL: 'https://online-store-mm.netlify.app/',
+    linkURL: 'https://online-store-mm.herokuapp.com/',
   },
   {
     title: 'TMDb-movie-search',
@@ -85,7 +85,7 @@ const projectsArr = [
 ];
 
 const INITIAL_STATE = {
-  homepageSections: ['portfolio', 'cv', 'contact'],
+  homepageSections: [ 'portfolio', 'cv', 'contact'],
   contacts: contactsArr,
   projects: projectsArr,
   navbarShown: false,
