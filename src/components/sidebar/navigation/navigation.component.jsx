@@ -19,12 +19,15 @@ const Navigation = ({
   return (
     <div className={`navigation ${navbarShown ? "show" : ""}`}>
       <ul onClick={toggleNavbarDropdown}>
-        <li
+        {/* <li
           className={`link-internal ${
             match.path === location.pathname ? "active" : ""
           }`}
-        ></li>
-        <li id="sidebar-link-home" onClick={()=>history.push('/')}>HOME</li>
+        ></li> */}
+        <li id="sidebar-link-home" onClick={() => history.push("/")}>
+          HOME
+        </li>
+
         {homepageSections.map((section, idx) => (
           <LinkInternal
             key={idx}

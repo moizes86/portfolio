@@ -11,8 +11,7 @@ const Introduction = ({ homepageSections }) => {
     <div className=' introduction'>
       <div className='center'>
         <h1>Hey, I'm Moshe</h1>
-        <h3>Looking for a junior frontend developer position </h3>
-        <p>Didn't know what I wanted to do and felt short on career options due to stuttering, until I realized I can code. Decided to learn web development and did it on my own. Won't frown uppon internship offers. Doctors, lawyers and accountants do it. It's only fair for me in order to gain experience.</p>
+        <h3>Looking for a junior frontend developer position. </h3>
       </div>
       <ul className='bottom'>
         {homepageSections.map((section, idx) => (

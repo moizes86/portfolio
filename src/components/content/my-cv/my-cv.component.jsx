@@ -16,15 +16,14 @@ const MyCV = () => {
     <div className="content-default">
       <div className="content-cv">
         <div className="download">
-          <a href="/CV- Moshe Mantsur.pdf" download>
+          <a href="/MosheMantsur_FE_Dev.pdf" download>
             Full Version (PDF)
           </a>
         </div>
         <div className="topic">
           <h1>Summary</h1>
           <p>
-            Looking for my first job as a <b>front-end developer</b>. Main stack
-            is Javascript and React. Learned independently via online courses.{" "}
+            Looking for a junior frontend position.
           </p>
           <h1>Education</h1>
           <p>
@@ -76,7 +75,7 @@ const MyCV = () => {
         </div>
 
         <div className="download">
-          <a href="/CV- Moshe Mantsur.pdf" download>
+          <a href="MosheMantsur_FE_Dev.pdf" download>
             Full Version (PDF)
           </a>
         </div>
