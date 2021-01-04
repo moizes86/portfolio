@@ -1,19 +1,19 @@
-import React from 'react';
+import React from "react";
 
-import { connect } from 'react-redux';
+import { connect } from "react-redux";
 
-import LinkInternal from '../../link-internal/link-internal.component';
+import LinkInternal from "../../link-internal/link-internal.component";
 
-import './introduction.styles.scss';
+import "./introduction.styles.scss";
 
 const Introduction = ({ homepageSections }) => {
   return (
-    <div className=' introduction'>
-      <div className='center'>
+    <div className=" introduction">
+      <div className="center">
         <h1>Hey, I'm Moshe</h1>
         <h3>Looking for a junior frontend developer position. </h3>
       </div>
-      <ul className='bottom'>
+      <ul className="bottom">
         {homepageSections.map((section, idx) => (
           <LinkInternal
             key={idx}

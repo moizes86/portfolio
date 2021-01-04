@@ -8,6 +8,7 @@ import TMDb_Thumbnail from '../assets/preview-thumbnails/tmdb.PNG';
 import GlobalTrekking_Thumbnail from '../assets/preview-thumbnails/global-trekking.jpg';
 import GlobalTrekking_Gif from '../assets/preview-gifs/global-trekking.gif';
 import OnlineStore_Thumbnail from '../assets/preview-thumbnails/online-store.thumbnail.JPG'
+import Dubio_Thumbnail from '../assets/preview-thumbnails/dubio.JPG'
 
 const contactsArr = [
   {
@@ -37,6 +38,14 @@ const contactsArr = [
 ];
 
 const projectsArr = [
+  {
+    title: 'Dubio',
+    stack: 'Typescript, AWS Amplify, React, Redux Toolkit, Sass, yarn ',
+    summary: 'Hackathon project with a team of developers - fact checking suspicious claims to push back againt fake news.',
+    gif: null,
+    thumbnail: Dubio_Thumbnail,
+    linkURL: 'https://ui.dubioo.com/#/',
+  },
   {
     title: 'Online Store',
     stack: 'React, Redux, Sass, Firebase, Stripe, ExpressJS',

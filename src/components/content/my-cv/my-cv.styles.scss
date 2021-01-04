@@ -1,7 +1,7 @@
 .content-cv {
   width: 60%;
 
-  @media screen and (max-width: 1000px){
+  @media screen and (max-width: 1000px) {
     width: 100%;
   }
   .download {
@@ -29,24 +29,5 @@
       border-bottom: 1px solid darkblue;
       line-height: 1.5;
     }
-  }
-
-  .topic-skills ul {
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-
-    li {
-      flex-basis: 25%;
-      padding: 10px;
-
-      .icon {
-        width: 80px;
-        height: 50px;
-      }
-    }
-  }
-  .topic-list ul li {
-    list-style: circle;
   }
 }
