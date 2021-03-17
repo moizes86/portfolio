@@ -9,6 +9,7 @@ import GlobalTrekking_Thumbnail from '../assets/preview-thumbnails/global-trekki
 import GlobalTrekking_Gif from '../assets/preview-gifs/global-trekking.gif';
 import OnlineStore_Thumbnail from '../assets/preview-thumbnails/online-store.thumbnail.JPG'
 import Dubio_Thumbnail from '../assets/preview-thumbnails/dubio.JPG'
+import Speakers_Thumbnail from '../assets/preview-thumbnails/speakers.JPG';
 
 const contactsArr = [
   {
@@ -61,6 +62,14 @@ const projectsArr = [
     gif: TMDb_Gif,
     thumbnail: TMDb_Thumbnail,
     linkURL: 'https://mm-tmdb.netlify.app/',
+  },
+  {
+    title: 'Speakers',
+    stack: 'HTML, CSS',
+    summary:'Final HTML-CSS project',
+    gif: '',
+    thumbnail: Speakers_Thumbnail,
+    linkURL: 'https://speakers-mm.netlify.app/'
   },
 
   {
