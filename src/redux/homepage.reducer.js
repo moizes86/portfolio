@@ -10,6 +10,7 @@ import GlobalTrekking_Gif from '../assets/preview-gifs/global-trekking.gif';
 import OnlineStore_Thumbnail from '../assets/preview-thumbnails/online-store.thumbnail.JPG'
 import Dubio_Thumbnail from '../assets/preview-thumbnails/dubio.JPG'
 import Speakers_Thumbnail from '../assets/preview-thumbnails/speakers.JPG';
+import Delicious_Foods_Thumbnail from "../assets/preview-thumbnails/delicious-foods.JPG";
 
 const contactsArr = [
   {
@@ -40,65 +41,75 @@ const contactsArr = [
 
 const projectsArr = [
   {
-    title: 'Dubio',
-    stack: 'Typescript, AWS Amplify, React, Redux Toolkit, Sass, yarn ',
-    summary: 'Hackathon project with a team of developers - fact checking suspicious claims to push back againt fake news.',
+    title: "Dubio",
+    stack: "Typescript, AWS Amplify, React, Redux Toolkit, Sass, yarn ",
+    summary:
+      "Hackathon project with a team of developers - fact checking suspicious claims to push back againt fake news.",
     gif: null,
     thumbnail: Dubio_Thumbnail,
-    linkURL: 'https://ui.dubioo.com/#/',
+    linkURL: "https://ui.dubioo.com/#/",
   },
   {
-    title: 'Online Store',
-    stack: 'React, Redux, Sass, Firebase, Stripe, ExpressJS',
-    summary: 'Online Store is a store. And it\'s online. It was made for practicing both redux and context API, plus learning how to use firebase registration and authentication along with express server to enable stripe payments.',
+    title: "Online Store",
+    stack: "React, Redux, Sass, Firebase, Stripe, ExpressJS",
+    summary:
+      "Online Store is a store. And it's online. It was made for practicing both redux and context API, plus learning how to use firebase registration and authentication along with express server to enable stripe payments.",
     gif: null,
     thumbnail: OnlineStore_Thumbnail,
-    linkURL: 'https://online-store-mm.herokuapp.com/',
+    linkURL: "https://online-store-mm.herokuapp.com/",
   },
   {
-    title: 'TMDb-movie-search',
-    stack: 'React, Redux, Styled-Components',
-    summary: 'Search movies by title. React and Redux hands-on.',
+    title: "TMDb-movie-search",
+    stack: "React, Redux, Styled-Components",
+    summary: "Search movies by title. React and Redux hands-on.",
     gif: TMDb_Gif,
     thumbnail: TMDb_Thumbnail,
-    linkURL: 'https://mm-tmdb.netlify.app/',
+    linkURL: "https://mm-tmdb.netlify.app/",
   },
   {
-    title: 'Speakers',
-    stack: 'HTML, CSS',
-    summary:'Final HTML-CSS project',
-    gif: '',
+    title: "Speakers",
+    stack: "HTML, CSS",
+    summary: "Final HTML-CSS project",
+    gif: "",
     thumbnail: Speakers_Thumbnail,
-    linkURL: 'https://speakers-mm.netlify.app/'
+    linkURL: "https://speakers-mm.netlify.app/",
+  },
+  {
+    title: "Delicious Foods",
+    stack: "HTML, CSS",
+    summary: "HTML-CSS landing page template",
+    gif: "",
+    thumbnail: Delicious_Foods_Thumbnail,
+    linkURL: "https://delicious-food-mm.netlify.app//",
   },
 
   {
-    title: 'Temanei-Kineret (React)',
-    stack: 'React, Sass',
+    title: "Temanei-Kineret (React)",
+    stack: "React, Sass",
     summary:
-      'Early React project for practicing components and routing, and also for better perfomance.',
+      "Early React project for practicing components and routing, and also for better perfomance.",
     gif: TK_React_Gif,
     thumbnail: TK_Thumbnail,
-    linkURL: 'https://tkreact.herokuapp.com/',
+    linkURL: "https://tkreact.herokuapp.com/",
   },
   {
-    title: 'Global-Trekking',
-    stack: 'React, Sass',
-    summary: 'Landing page for tours company.',
+    title: "Global-Trekking",
+    stack: "React, Sass",
+    summary: "Landing page for tours company.",
     gif: GlobalTrekking_Gif,
     thumbnail: GlobalTrekking_Thumbnail,
-    linkURL: 'https://global-trekking.netlify.app/',
+    linkURL: "https://global-trekking.netlify.app/",
   },
 
   {
-    title: 'Temanei-Kineret',
-    stack: 'Javascript, HTML, CSS, Bootstrap, ExpressJS',
+    title: "Temanei-Kineret",
+    stack: "Javascript, HTML, CSS, Bootstrap, ExpressJS",
     summary:
-      'Rebuilt an old website for better styling and made it responsive.',
+      "Rebuilt an old website for better styling and made it responsive.",
     gif: TK_Gif,
     thumbnail: TK_Thumbnail,
     external: true,
-    linkURL: 'https://temanei-kineret.herokuapp.com/index',
+    linkURL: "https://temanei-kineret.herokuapp.com/index",
   },
 ];
 
