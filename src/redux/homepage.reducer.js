@@ -11,6 +11,7 @@ import OnlineStore_Thumbnail from '../assets/preview-thumbnails/online-store.thu
 import Dubio_Thumbnail from '../assets/preview-thumbnails/dubio.JPG'
 import Speakers_Thumbnail from '../assets/preview-thumbnails/speakers.JPG';
 import Delicious_Foods_Thumbnail from "../assets/preview-thumbnails/delicious-foods.JPG";
+import notesBoard_Thumbnail from "../assets/preview-thumbnails/notes-board.JPG";
 
 const contactsArr = [
   {
@@ -99,6 +100,14 @@ const projectsArr = [
     gif: GlobalTrekking_Gif,
     thumbnail: GlobalTrekking_Thumbnail,
     linkURL: "https://global-trekking.netlify.app/",
+  },
+  {
+    title: "Notes Board",
+    stack: "HTML, CSS, Javascript, Bootstrap",
+    summary: "Add notes to board. Responsive",
+    gif: null,
+    thumbnail: notesBoard_Thumbnail,
+    linkURL: "https://note-board-mm.netlify.app/",
   },
 
   {
