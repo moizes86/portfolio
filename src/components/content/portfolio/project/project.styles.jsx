@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const PreviewContainer = styled.div`
   background-image: url(${(props) => props.thumbnail});
   background-size: 100% 100%;
-  min-width: 45%;
+  width: 300px;
   height: 250px;
+  
 
   @media screen and (max-width: 1000px) {
     margin: 0 20%;
@@ -18,7 +19,7 @@ export const PreviewContainer = styled.div`
   }
 
   @media screen and (max-width: 800px){
-    margin: 0 5%;
+    margin: auto;
   }
 
   & li {

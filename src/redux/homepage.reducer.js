@@ -12,6 +12,7 @@ import Dubio_Thumbnail from '../assets/preview-thumbnails/dubio.JPG'
 import Speakers_Thumbnail from '../assets/preview-thumbnails/speakers.JPG';
 import Delicious_Foods_Thumbnail from "../assets/preview-thumbnails/delicious-foods.JPG";
 import notesBoard_Thumbnail from "../assets/preview-thumbnails/notes-board.JPG";
+import reactMinis_Thumbnail from "../assets/preview-thumbnails/react-minis.JPG";
 
 const contactsArr = [
   {
@@ -68,6 +69,14 @@ const projectsArr = [
     linkURL: "https://mm-tmdb.netlify.app/",
   },
   {
+    title: "Minis",
+    stack: "React, Sass, Bootstrap",
+    summary: "React mini projects for practice",
+    gif: "",
+    thumbnail: reactMinis_Thumbnail,
+    linkURL: "https://react-minis-mm.netlify.app/",
+  },
+  {
     title: "Speakers",
     stack: "HTML, CSS",
     summary: "Final HTML-CSS project",
@@ -113,8 +122,7 @@ const projectsArr = [
   {
     title: "Temanei-Kineret",
     stack: "Javascript, HTML, CSS, Bootstrap, ExpressJS",
-    summary:
-      "Rebuilt an old website for better styling and made it responsive.",
+    summary: "Rebuilt an old website for better styling and made it responsive.",
     gif: TK_Gif,
     thumbnail: TK_Thumbnail,
     external: true,
