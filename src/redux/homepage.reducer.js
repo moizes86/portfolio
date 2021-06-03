@@ -1,43 +1,44 @@
-import HomepageTypes from './homepage.types';
+import HomepageTypes from "./homepage.types";
 
-import TK_Gif from '../assets/preview-gifs/tk.gif';
-import TK_Thumbnail from '../assets/preview-thumbnails/tk.jpg';
-import TK_React_Gif from '../assets/preview-gifs/tk-react.gif';
-import TMDb_Gif from '../assets/preview-gifs/tmdb-movies-search.gif';
-import TMDb_Thumbnail from '../assets/preview-thumbnails/tmdb.PNG';
-import GlobalTrekking_Thumbnail from '../assets/preview-thumbnails/global-trekking.jpg';
-import GlobalTrekking_Gif from '../assets/preview-gifs/global-trekking.gif';
-import OnlineStore_Thumbnail from '../assets/preview-thumbnails/online-store.thumbnail.JPG'
-import Dubio_Thumbnail from '../assets/preview-thumbnails/dubio.JPG'
-import Speakers_Thumbnail from '../assets/preview-thumbnails/speakers.JPG';
+import TK_Gif from "../assets/preview-gifs/tk.gif";
+import TK_Thumbnail from "../assets/preview-thumbnails/tk.jpg";
+import TK_React_Gif from "../assets/preview-gifs/tk-react.gif";
+import TMDb_Gif from "../assets/preview-gifs/tmdb-movies-search.gif";
+import TMDb_Thumbnail from "../assets/preview-thumbnails/tmdb.PNG";
+import GlobalTrekking_Thumbnail from "../assets/preview-thumbnails/global-trekking.jpg";
+import GlobalTrekking_Gif from "../assets/preview-gifs/global-trekking.gif";
+import OnlineStore_Thumbnail from "../assets/preview-thumbnails/online-store.thumbnail.JPG";
+import Dubio_Thumbnail from "../assets/preview-thumbnails/dubio.JPG";
+import Speakers_Thumbnail from "../assets/preview-thumbnails/speakers.JPG";
 import Delicious_Foods_Thumbnail from "../assets/preview-thumbnails/delicious-foods.JPG";
 import notesBoard_Thumbnail from "../assets/preview-thumbnails/notes-board.JPG";
 import reactMinis_Thumbnail from "../assets/preview-thumbnails/react-minis.JPG";
+import studentsSignupAndDisplay_Thumbnail from "../assets/preview-thumbnails/students-signup-and-display.JPG";
 
 const contactsArr = [
   {
-    href: 'mailto:moshe.mn86@gmail.com',
-    icon: 'fa fa-envelope',
-    type: 'Email',
-    text: 'moshe.mn86@gmail.com',
+    href: "mailto:moshe.mn86@gmail.com",
+    icon: "fa fa-envelope",
+    type: "Email",
+    text: "moshe.mn86@gmail.com",
   },
   {
-    href: 'https://www.linkedin.com/in/moshe-mantsur-33b340146/',
-    icon: 'fa fa-linkedin-square',
-    type: 'LinkedIn',
-    text: 'Moshe Mantsur',
+    href: "https://www.linkedin.com/in/moshe-mantsur-33b340146/",
+    icon: "fa fa-linkedin-square",
+    type: "LinkedIn",
+    text: "Moshe Mantsur",
   },
   {
-    href: 'https://www.facebook.com/moshe.mantsur.5/',
-    icon: 'fa fa-facebook-square',
-    type: 'Facebook',
-    text: 'Moshe Mantsur',
+    href: "https://www.facebook.com/moshe.mantsur.5/",
+    icon: "fa fa-facebook-square",
+    type: "Facebook",
+    text: "Moshe Mantsur",
   },
   {
-    href: 'https://github.com/moizes86?tab=repositories',
-    icon: 'fa fa-github-square',
-    type: 'Github',
-    text: 'moizes86',
+    href: "https://github.com/moizes86?tab=repositories",
+    icon: "fa fa-github-square",
+    type: "Github",
+    text: "moizes86",
   },
 ];
 
@@ -67,6 +68,14 @@ const projectsArr = [
     gif: TMDb_Gif,
     thumbnail: TMDb_Thumbnail,
     linkURL: "https://mm-tmdb.netlify.app/",
+  },
+  {
+    title: "Students Signup And Display",
+    stack: "React, React Bootstrap",
+    summary: "Signup under custom form validations and get a list of registered students.",
+    gif: "",
+    thumbnail: studentsSignupAndDisplay_Thumbnail,
+    linkURL: "https://students-signup-form-mm.netlify.app/",
   },
   {
     title: "Minis",
@@ -131,7 +140,7 @@ const projectsArr = [
 ];
 
 const INITIAL_STATE = {
-  homepageSections: [ 'portfolio', 'cv', 'contact'],
+  homepageSections: ["portfolio", "cv", "contact"],
   contacts: contactsArr,
   projects: projectsArr,
   navbarShown: false,
