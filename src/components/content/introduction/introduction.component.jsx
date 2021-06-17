@@ -11,7 +11,7 @@ const Introduction = ({ homepageSections }) => {
     <div className=" introduction">
       <div className="center">
         <h1>Hey, I'm Moshe</h1>
-        <h3>Looking for a junior frontend developer position. </h3>
+        <h3>Junior frontend developer. </h3>
       </div>
       <ul className="bottom">
         {homepageSections.map((section, idx) => (

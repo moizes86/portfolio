@@ -77,14 +77,14 @@ const projectsArr = [
     thumbnail: studentsSignupAndDisplay_Thumbnail,
     linkURL: "https://students-signup-form-mm.netlify.app/",
   },
-  {
-    title: "Minis",
-    stack: "React, Sass, Bootstrap",
-    summary: "React mini projects for practice",
-    gif: "",
-    thumbnail: reactMinis_Thumbnail,
-    linkURL: "https://react-minis-mm.netlify.app/",
-  },
+  // {
+  //   title: "Minis",
+  //   stack: "React, Sass, Bootstrap",
+  //   summary: "React mini projects for practice",
+  //   gif: "",
+  //   thumbnail: reactMinis_Thumbnail,
+  //   linkURL: "https://react-minis-mm.netlify.app/",
+  // },
   {
     title: "Speakers",
     stack: "HTML, CSS",

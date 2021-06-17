@@ -9,8 +9,11 @@ const PersonalInfo = ({ history }) => {
     <div className='personal-info'>
       <div onClick={() => history.push(`/`)}>
         <img src={myPhoto} alt='' />
+        <div className='title'>
+
         <h1>MOSHE MANTSUR</h1>
         <h2>FRONT-END DEVELOPER</h2>
+        </div>
       </div>
     </div>
   );
