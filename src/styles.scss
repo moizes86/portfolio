@@ -43,6 +43,7 @@ $transition-time: 0.2s;
   h1 {
     text-align: center;
     margin: 2rem auto;
+    text-shadow: 33px 33px 3px rgb(206 89 55 / 14%);
   }
 }
 
@@ -118,6 +119,11 @@ $transition-time: 0.2s;
 
   }
 
+  .animate-card{
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
    
   .card {
     width: 18rem;
@@ -126,6 +132,7 @@ $transition-time: 0.2s;
     margin: 20px;
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
     transition: 0.2s;
+    opacity: 0;
 
     &:hover {
       box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);

@@ -8,7 +8,7 @@ export default function Skills() {
       <h1>Skills</h1>
       <div className="icons-container pt-2">
         {Object.values(icons).map((icon) => (
-          icon.showAsSkill && <img src={icon.src} alt={icon.title} title={icon.title}/>
+          icon.showAsSkill && <img key={icon.title} src={icon.src} alt={icon.title} title={icon.title}/>
         ))}
       </div>
     </div>

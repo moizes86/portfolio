@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
         <div className="icons-container">
           {contactInfo.map((item) => (
-            <a href={item.href} target="_blank" rel="noreferrer noopener" className={item.title}>
+            <a key={item.title} href={item.href} target="_blank" rel="noreferrer noopener" className={item.title}>
               <i className={item.icon}></i>
             </a>
           ))}
