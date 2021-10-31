@@ -47,6 +47,11 @@ const icons = {
     title: "JWT",
     showAsSkill: false,
   },
+  mongo: {
+    src: iconsURL + "mongodb.png",
+    title: "MongoDB",
+    showAsSkill: true,
+  },
   mysql: {
     src: iconsURL + "mysql.png",
     title: "MySQL",
@@ -85,6 +90,11 @@ const icons = {
   sass: {
     src: iconsURL + "sass.png",
     title: "sass",
+    showAsSkill: true,
+  },
+  socketio: {
+    src: iconsURL + "socketio.png",
+    title: "socket.io",
     showAsSkill: true,
   },
   stripe: {
@@ -138,6 +148,7 @@ const contactInfo = [
 ];
 
 const projects = [
+  //
   {
     title: "Recipes Farm",
     summary:
@@ -155,6 +166,8 @@ const projects = [
     url: "https://recipes-mm.netlify.app/",
     git: "https://github.com/moizes86/recipes-backend",
   },
+  //
+  //
   {
     title: "Dubio",
     stackIcons: [icons.typescript, icons.react, icons.redux, icons.sass, icons.aws, icons.yarn],
@@ -164,7 +177,8 @@ const projects = [
     url: "https://ui.dubioo.com/#/",
     git: "https://github.com/moizes86/Dubio_backup",
   },
-
+  //
+  //
   {
     title: "TMDb Movies",
     summary: "Search movies by title. React and Redux hands-on.",
@@ -173,6 +187,8 @@ const projects = [
     url: "https://mm-tmdb.netlify.app/",
     git: "https://github.com/moizes86/TMDb-movie-search",
   },
+  //
+  //
   {
     title: "Students Signup And Display",
     summary: "Signup under custom form validations and get a list of registered students.",
@@ -181,6 +197,18 @@ const projects = [
     url: "https://students-signup-form-mm.netlify.app/",
     git: "https://github.com/moizes86/students-signup-display",
   },
+  //
+  //
+  {
+    title: "Chatee",
+    summary: "Chat app using socket.io, mongoose, redux, form validation and email verification.",
+    stackIcons: [icons.react, icons.redux, icons.sass, icons.mongo, icons.socketio, icons.bootstrap],
+    thumb: thumbsURL + "chatee.png",
+    url: "https://github.com/moizes86/chat-application",
+    git: "https://github.com/moizes86/chat-application",
+  },
+  //
+  //
   {
     title: "Online Store",
     summary: "Dummy products, real firebase and stripe implementation.",
@@ -189,6 +217,8 @@ const projects = [
     url: "https://online-store-mm.herokuapp.com/",
     git: "https://github.com/moizes86/online-store-with-server",
   },
+  //
+  //
   {
     title: "Minis",
     summary: "React mini projects for practice",
@@ -197,6 +227,8 @@ const projects = [
     url: "https://react-minis-mm.netlify.app/",
     git: "https://github.com/moizes86/react-minis",
   },
+  //
+  //
   {
     title: "Speakers",
     summary: "Final HTML-CSS project",
@@ -205,6 +237,8 @@ const projects = [
     url: "https://speakers-mm.netlify.app/",
     git: "https://github.com/moizes86/speakers",
   },
+  //
+  //
   {
     title: "Delicious Foods",
     summary: "HTML-CSS landing page template",
@@ -213,7 +247,8 @@ const projects = [
     url: "https://delicious-food-mm.netlify.app//",
     git: "https://github.com/moizes86/Delicious-Food",
   },
-
+  //
+  //
   {
     title: "Temanei-Kineret (React)",
     summary: "Early React project for practicing components and routing, and also for better perfomance.",
@@ -222,6 +257,8 @@ const projects = [
     url: "https://tkreact.herokuapp.com/",
     git: "https://github.com/moizes86/Teimanei-Kineret-React",
   },
+  //
+  //
   {
     title: "Global-Trekking",
     summary: "Landing page for tours company.",
@@ -230,6 +267,8 @@ const projects = [
     url: "https://global-trekking.netlify.app/",
     git: "https://github.com/moizes86/global-trekking",
   },
+  //
+  //
   {
     title: "Notes Board",
     summary: "Add notes to board. Responsive",
@@ -239,7 +278,8 @@ const projects = [
     url: "https://note-board-mm.netlify.app/",
     git: "https://github.com/moizes86/notes-board",
   },
-
+  //
+  //
   {
     title: "Temanei-Kineret",
     summary: "Rebuilt an old website for better styling and made it responsive.",
